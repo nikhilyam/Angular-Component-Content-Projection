@@ -1,8 +1,14 @@
 <h1>Angular and Content Project</h1>
+<app-zippy-basic>
+  <p>Is content projection cool?</p>
+</app-zippy-basic>
+
+<hr />
 <app-zippy-multislot>
   <p question>Is content projection cool?</p>
   <p>Let's learn about content projection!</p>
 </app-zippy-multislot>
+
 <hr />
 <h2>Here is a zippy</h2>
 <app-example-zippy>
@@ -11,4 +17,11 @@
     Its depend on what you do with it.
   </ng-template>
 </app-example-zippy>
+
 <hr />
+<app-zippy-ngprojectas>
+  <p>Let's learn about content projection!</p>
+  <ng-container ngProjectAs="[question]">
+    <p>Is content projection cool?</p>
+  </ng-container>
+</app-zippy-ngprojectas>
