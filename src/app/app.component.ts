@@ -2,13 +2,13 @@ import { Component, Directive } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: `<h1> Hi NIkhil Welcome to World</h1>`,
+  templateUrl: './app.componenent.html',
 })
 export class AppComponent {}
 
 @Component({
-  selector: 'app-zippy',
-  template: `Zippy`,
+  selector: 'app-example-zippy',
+  templateUrl: './example-zippy.template.html',
 })
 export class ZippyComponent {}
 
