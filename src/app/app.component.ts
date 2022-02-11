@@ -10,7 +10,7 @@ import {
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.componenent.html',
+  templateUrl: './app.component.html',
 })
 export class AppComponent {}
 
