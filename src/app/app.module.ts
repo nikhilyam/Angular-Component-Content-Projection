@@ -8,6 +8,7 @@ import {
   ZippyToggelDirective,
 } from './app.component';
 import { ZippayBasicComponent } from './zippy-basic/zippy-basic.component';
+import { ZippyMultislotComponent } from './zippy-multislot/zippy-multislot.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -17,6 +18,7 @@ import { ZippayBasicComponent } from './zippy-basic/zippy-basic.component';
     ZippyContentDirective,
     ZippyToggelDirective,
     ZippayBasicComponent,
+    ZippyMultislotComponent,
   ],
   bootstrap: [AppComponent],
 })
